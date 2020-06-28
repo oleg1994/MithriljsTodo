@@ -1,0 +1,29 @@
+.task {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: fit-content;
+  width: -moz-fit-content;
+  padding:10px;
+
+  &__status {
+    &:hover {
+        cursor: pointer;
+    }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size:30px;
+      font-weight: 900;
+      color:green;
+      border:1px solid #c4cbd0;
+      min-width: 40px;
+      height: 40px;
+      border-radius: 30px;
+  }
+  &__content {
+     padding-left:10px;
+     user-select: all;
+
+  }
+}
