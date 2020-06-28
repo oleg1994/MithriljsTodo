@@ -3,7 +3,6 @@ import './Task.scss'
 import todoCrud from '../../../firebaseSide/Queries/todoCrud'
 
 
-const statusMark = '✓'
 
 function Todo() {
     const changeStatus = (event) => {
