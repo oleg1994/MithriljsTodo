@@ -1,0 +1,26 @@
+.saveTask{
+display: flex;
+justify-content: center;
+    &__input{
+        padding:20px;
+        font-size: 25px;
+        width: 50%;
+    }
+    &__button{
+        padding:19px;
+        width: fit-content;
+        font-size: 25px;
+        background:greenyellow;
+        border-bottom: 1px solid grey;
+        border-right: 1px solid grey;
+        border-top: 1px solid grey;
+        cursor: pointer;
+    }
+    &__error{
+        padding:19px;
+        width: fit-content;
+        font-size: 25px;
+        color:red;
+
+    }
+}
