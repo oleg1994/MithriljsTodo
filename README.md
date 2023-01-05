@@ -1,3 +1,3 @@
 # MithriljsTodo
 # https://todo-aac01.web.app/
-messing around with mithril and firebase
+Todo web app with mithril.js and firebase
